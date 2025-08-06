@@ -1,0 +1,8 @@
+name: local-component
+runtime: nodejs
+packages:
+  local:
+    source: terraform-provider
+    version: 0.12.0
+    parameters:
+      - hashicorp/local
